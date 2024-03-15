@@ -2,7 +2,6 @@
 
 #include <chrono>
 #include <ctime>
-
 int main() 
 {
 	using namespace std;
@@ -33,7 +32,6 @@ int main()
 */
 
 // std::optional
-
 #include <optional> // wrapper
 #include <string>
 
@@ -79,7 +77,6 @@ int main()
 }
 
 ///
-
 int main() 
 {
 	optional x(4345);
@@ -108,7 +105,6 @@ int main()
 }
 
 //std::optional Kullanım
-
 void print_e_mail(const std::optional<std::string>& op) 
 {
 	std::cout << "e-posta adresi: " << op.value_or("yok") << "\n";
@@ -121,7 +117,6 @@ int main()
 }
 
 //////
-
 class Person 
 {
 	private:

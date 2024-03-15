@@ -431,7 +431,6 @@ int main()
 }
 
  // ÖRNEK
- 
  std::mutex mtx;
  void foo(int id) 
  {
@@ -470,7 +469,6 @@ int main()
  }
  
  // ÖRNEK
- 
  thread_local std::string name{ "cemal" };
  void func(const std::string& surname)
  {

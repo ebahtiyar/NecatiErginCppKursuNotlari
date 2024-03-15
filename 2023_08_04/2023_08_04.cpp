@@ -121,7 +121,6 @@ inline int foo(int x, int y) {
 	return x * 12 * y;
 }
 
-// 1.30
 
 /*
 
@@ -154,7 +153,6 @@ inline static int g{12}; // static ömürlüyü böyle tanımlayabiliriz.
 // C++ dilinde enumaration types
 
 // modern cpp öncesi
-
 enum Color {Blue, Black, White, Purple, Red};
 int main() 
 {

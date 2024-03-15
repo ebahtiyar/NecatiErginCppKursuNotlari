@@ -205,14 +205,14 @@ int main()
 int main() 
 {
 	auto &x = "eren"; // auto -> const char[5]
-	// x -> conar char(&)[5]
+	// x -> const char(&)[5]
 }
 //
 int foo(int);
 int main() 
 {
 	auto &f = foo; // auto -> int(int)
-	// f -> int(&)(int)  function referance
+	f -> int(&)(int)  function referance
 }
 
 // using bildirimi 

@@ -1,5 +1,4 @@
 // std::any
-
 int main() 
 {
 	using namespace std;
@@ -127,7 +126,6 @@ int main()
 }
 
 // std::random
-
 int main() 
 {
 	using namespace std;
@@ -141,7 +139,6 @@ int main()
 }
 
 //
-
 int main() 
 {
 	using namespace std;

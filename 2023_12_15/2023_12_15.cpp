@@ -49,7 +49,6 @@ int main()
 }
 
 // bir dosyayı parçalara bölme
-
 int main(int argc, char* argv[]) 
 {
 	using namespace std;
@@ -242,7 +241,6 @@ int main()
 }
 
 // gcount()
-
 int main() 
 {
 	int *p = new int[20000];
@@ -266,7 +264,6 @@ int main()
 }
 
 // ignore
-
 int main() 
 {
 	using namespace std;

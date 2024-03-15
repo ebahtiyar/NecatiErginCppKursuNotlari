@@ -1,6 +1,4 @@
 // std::chrono:duration
-
-
 using namespace std;
 using namespace std::chrono;
 
@@ -51,7 +49,6 @@ int main()
  // UDL (user-defined literals)
  
  // operator""ms(823) --823ms operator overloading
- 
  int main() 
  {
 	 auto dur = 345ms;
@@ -80,7 +77,6 @@ int main()
  */
  
  // UDL oluşturma (namespace almak daha mantıklı)
- 
 constexpr double operator""_m(long double val) 
 {
 	 return static_cast<double>(val);
@@ -299,7 +295,6 @@ int main()
 }
 
 
-// timepoint
 /*
 	system_clock
 	high_resolution_clock
@@ -320,7 +315,6 @@ int main()
 }
 
 // süre ölçümü
-
 std::vector<size_t> get_sorted_vector(std::size_t n) 
 {
 	std::vector<size_t > vec(n);

@@ -251,14 +251,7 @@ int main()
 	int *x = 0; // 0 nullptr'a dönüşüyor
 }
 
-// C++ nullptr --keyword (modern cpp ile geldi)
-int main()
-{
-	//nulptr bir sabit, keyword ve türü nullptr_t
-	// pointer olmayan değişkene atamak syntax hatası
-	int *p = nullptr;
-	int x = nullptr; // bu syntax hatası 
-	// tür güvenliğini sağlar type-safety
-}
+
+
  
  

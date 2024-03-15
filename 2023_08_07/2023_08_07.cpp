@@ -2,6 +2,7 @@
 enum class Pos : unsigned char {On, Off, Hold, Standby}; 
 
 /*
+
 Sırasıyla:
 	name lookup
 	context control

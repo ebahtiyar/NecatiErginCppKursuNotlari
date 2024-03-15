@@ -95,7 +95,6 @@ class Myclass
 }
 
 // SORU
-
 using namespace std;
 
 std::mutex mtx;
@@ -161,7 +160,6 @@ MUTEX SARMALAYAN RAII SINIFLARI
 */
 
 // std::lock_guard
-
 std::mutex mtx;
 
 void foo() 
@@ -178,7 +176,6 @@ void foo()
 ////
 
 std::mutex mtx;
-
 void func() 
 {
 	// adopt_lock 
@@ -202,7 +199,6 @@ void func()
 
 
 // ÖRNEK
-
 using namespace std;
 
 int cnt{};
@@ -233,7 +229,6 @@ int main()
 }
 
 // ÖRNEK
-
 std::mutex mtx;
 
 void foo() 
@@ -272,7 +267,6 @@ int main()
 
 
 // 
-
 class List{
 	
 	public:

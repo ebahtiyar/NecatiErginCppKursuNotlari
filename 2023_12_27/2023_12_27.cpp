@@ -395,7 +395,6 @@ int main()
 }
 
 // virtual dispatch
-
 class Document {
 	public:
 		virtual void print() = 0;
@@ -486,7 +485,6 @@ int main()
 }
 
  // std::any_cast
-
 int main() 
 {
 	using namespace std;
@@ -496,5 +494,4 @@ int main()
 	
 	x = "necati"s
 	cout << any_cast<int>(x) << "\n"; // exception verir bad_any_cast
-	
 }
